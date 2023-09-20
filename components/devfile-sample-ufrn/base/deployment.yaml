@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ufrn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0076-tenant/ci10t-777-0076-app/devfile-sample-ufrn@sha256:0bac4ab29207ac30338abd106bb0f05807c18df3af0ffa7d019139a003667488
         name: my-nodejs
         ports:
         - containerPort: 3001
